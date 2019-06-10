@@ -27,5 +27,6 @@ class Rectangle extends Shape implements Resizeable
     {
         // TODO: Implement resize() method.
         $this->width += $this->width * $size / 100;
+        $this->height += $this->height * $size / 100;
     }
 }
